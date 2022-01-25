@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Attributes and Links</title>
+</head>
+<body>
+  <h2 id="top">HTML Attributes</h2>
+
+  <!-- syntax:
+        attributeName = "value" -->
+
+  <p align="center">
+    <em>Modifiers of element behaviors</em>
+  </p>
+
+  <h2>HTML Images</h2>
+
+<div align="center">
+  <!-- Adds an image using absolute linking -->
+
+  <a href="https://place-puppy.com/" target="blank">
+    <img src="https://place-puppy.com/300x300"/>
+  </a>
+
+  <p>
+    <code>
+      &lt;img src="https://place-puppy.com/300x300"&gt;
+    </code>
+  </p>
+    <p>
+      <em>An image can be shown using &lt;img&gt; tag along with its <strong>src</strong> attribute.</em>
+    </p>
+  </div>
+
+  <!-- img used to include images. creates inline elements -->
+  <!-- src attribute accepts url from an online image link -->
+
+  <!-- Adds an image using relative linking -->
+    <img src="./images/cat.jpg" height="250" width="250">
+
+  <p>
+    <code>
+      &lt;img src="./images/cat.jpg" height="250" width="250"&gt;
+    </code>
+  </p>
+
+  <p>
+    Valid image extensions are the following:
+  </p>
+
+  <ol type="i" reversed>
+    <li>png</li>
+    <li>jpg/jpeg</li>
+    <li>bmp</li>
+    <li>gif</li>
+    <li>tiff</li>
+    <li>webp</li>
+  </ol>
+  <!-- type attribute changes the numbered points of the ol element.
+    type value can be 1, A, a, I, i
+   -->
+
+   <h2>HTML Links</h2>
+
+   <h4>Absolute Link</h4>
+    <!-- Creates hyperlink elements that redirects to an outsude page/domain -->
+
+    <a href="https://zuitt.co">I'm a hyperlink</a>
+    <!-- anchor tag creates a hyplink element;
+    when clicked, will redirect to diff. page -->
+    <!-- href = hypertext reference -->
+
+   <h4>Relative Link</h4>
+
+   <p>Go to <a href="./link.html">link.html</a> page</p>
+   <p>Go to <a href="./images/index.html">images/index.html</a> page</p>
+   <p>Go to <a href="#top">top</a>.</p>
+
+</body>
+</html>
